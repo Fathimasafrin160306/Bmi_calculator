@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bmi Calculator</title>
+<style>
+   * {
+        background-color: black;
+    }
+ .center {
+  text-align: center;
+  color:yellow;
+  }
+  .form-box {
+        width: 400px;
+        margin: 50px auto;
+        padding: 30px;
+        border: 1px solid aqua;
+        border-radius: 10px;
+        text-align: center;
+        color:yellow;
+    }
+    .label{
+    background-color:black;
+    color: white;
+    }
+  
+    </style>
+</head>
+<body>
+
+<h1 class="center">BMI Calculator</h1>
+<form action="BMIServlet" method="post" class="form-box">
+<label>Enter the Name</label><br>
+<input type="text" name="name" required class="label">
+<br>
+<label style=color:yellow>Enter the Height</label><br>
+<input type="number" name="height" required class="label">
+<br>
+<label >Enter the Weight</label><br>
+<input type="number" name="weight" required class="label">
+<br>
+<button style=color:aqua>Calculate BMI</button>
+</form>
+</div>
+</body>
+</html>
